@@ -26,7 +26,7 @@ function checkGuess() {
     guesses.textContent = "Intentos anteriores: ";
   }
   //Agrega el númnero introducido al final del párrafo que muestra los números introducidos
-  guesses.textContent += userGuess + " ";
+  guesses.textContent += " " + userGuess + " ";
   //Si el usuario adivina, se envía un mensaje de felicitaciones, se cambia el color del fondo a verde, se deja vacio el párrafo que informa si el número es alto o bajo y se llama a la función que finaliza el juego.
   if (userGuess === randomNumber) {
     lastResult.textContent = "¡Felicidades! ¡Lo adivinaste!";

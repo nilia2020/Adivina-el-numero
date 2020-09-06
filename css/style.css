@@ -11,5 +11,9 @@ body {
 
 .lastResult {
   color: white;
+  font-weight: bold;
   padding: 3px;
+}
+.guesses {
+  font-weight: bold;
 }
