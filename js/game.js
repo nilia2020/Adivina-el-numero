@@ -13,6 +13,8 @@ const guessField = document.querySelector(".guessField");
 let guessCount = 1;
 //Botón de reinicio
 let resetButton;
+// foco en el input
+guessField.focus();
 
 //Comprobar la respuesta del usuario
 
